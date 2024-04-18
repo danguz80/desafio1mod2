@@ -8,7 +8,7 @@ body{
 }
 
 .contactos{
-    width: 20vw;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     border: 1px #100f0f;
@@ -16,15 +16,15 @@ body{
 
 .boton{
     display: flex;
-    height: 100px;
+    height: 150px;
     justify-content: center;
     align-items: center;
     border-top: 1px solid #b7b7b7;
 }
 
 .boton button{
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 250px;
     background-color: #a490d2;
     border: none;
     color: white;
@@ -32,7 +32,7 @@ body{
 
 .networking{
     display: flex;
-    width: 80vw;
+    width: 75vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -43,6 +43,10 @@ body{
     display: flex;
 }
 
+.hand img{
+    width: 350px;
+}
+
 .hand-text{
     display: flex;
     flex-direction: column;
@@ -51,10 +55,27 @@ body{
     text-align: center;
 }
 
+.hand-text h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0;
+}
+
+.hand-text p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
 .maria{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 2vh 2vh;
 }
 
 .foto-maria{
@@ -63,10 +84,27 @@ body{
     justify-content: center;
 }
 
+.texto-maria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1%;
+    padding-left: 1vh;
+}
+
+.texto-maria h5, p{
+    margin: 0;
+    padding: 0;
+}
+
 .foto-maria img{
     border-radius: 50%;
     max-width: 50px;
     border: 1px solid #ddd;
+}
+
+.ahora{
+    color: #9b9999;
 }
 
 .activo{
@@ -76,7 +114,9 @@ body{
 
 .iconos{
     display: flex;
-    justify-content: flex-end;
+    color: #9b9999;
+    gap: 30%;
+    font-size: 1.5rem;
 }
 
 .inactivos{
@@ -96,7 +136,27 @@ body{
     border: 2px solid #ddd;
 }
 
-.hand img{
-    width: 400px;
 
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: small;
+}
+
+.open-sans-button{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: white;
 }
