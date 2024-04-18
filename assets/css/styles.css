@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    display: flex;
+}
+
+.contactos{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px #100f0f;
+}
+
+.boton{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #b7b7b7;
+}
+
+.boton button{
+    height: 50px;
+    width: 150px;
+    background-color: #a490d2;
+    border: none;
+    color: white;
+}
+
+.networking{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f0;
+}
+
+.hand{
+    display: flex;
+}
+
+.hand-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+}
+
+.maria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto-maria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-maria img{
+    border-radius: 50%;
+    max-width: 50px;
+    border: 1px solid #ddd;
+}
+
+.activo{
+    display: flex;
+    justify-content: center;
+}
+
+.iconos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inactivos{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #b7b7b7;
+}
+
+.imgs-inac{
+    display: flex;
+    align-items: center;
+}
+
+.imgs-inac img{
+    border-radius: 50%;
+    max-width: 65px;
+    border: 2px solid #ddd;
+}
+
+.hand img{
+    width: 400px;
+
+}
