@@ -36,7 +36,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f1f2f0;
+    background-color: #fafafa;
+    gap: 3%;
 }
 
 .hand{
@@ -73,9 +74,10 @@ body{
 
 .maria{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 2vh 2vh;
+    padding: 0 3rem 0 3rem;
 }
 
 .foto-maria{
@@ -116,32 +118,54 @@ body{
     display: flex;
     color: #9b9999;
     gap: 30%;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .inactivos{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     border-top: 1px solid #b7b7b7;
+    gap: 6%;
+    padding-left: 8%;
 }
 
 .imgs-inac{
     display: flex;
     align-items: center;
+    margin: 1rem 1rem;
 }
 
 .imgs-inac img{
     border-radius: 50%;
-    max-width: 65px;
+    max-width: 70px;
     border: 2px solid #ddd;
 }
 
+.text-inac h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #1B1F21;
+    margin: 0;
+}
+
+.text-inac p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #1B1F21;
+    margin: 0;
+}
 
 .roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: larger;
+    color: #1B1F21;
 }
 
 .open-sans{
